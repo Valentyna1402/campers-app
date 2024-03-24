@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktrailers_app=self.webpackChunktrailers_app||[]).push([[879],{879:(e,r,s)=>{s.r(r),s.d(r,{default:()=>t});s(43);var a=s(791),p=s(579);function t(){return(0,p.jsx)("div",{children:(0,p.jsx)(a.Z,{})})}}}]);
+//# sourceMappingURL=879.548e1564.chunk.js.map
