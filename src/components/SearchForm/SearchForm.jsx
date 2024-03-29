@@ -62,11 +62,11 @@ export const SearchForm = () => {
           <FilterTitle>Vehicle equipment</FilterTitle>
           <Icon iconid={"icon-underline"} width={360} height={2} />
           <FilterList>
-            <FilterButton iconid={"icon-ac"} text="AC" value='ac' />
-            <FilterButton iconid={"icon-transmission"} text="Automatic" value='transmission' />
-            <FilterButton iconid={"icon-kitchen"} text="Kitchen" value='kitchen' />
-            <FilterButton iconid={"icon-tv"} text="TV" value='tv' />
-            <FilterButton iconid={"icon-shower"} text="Shower/WC" value='shower' />
+            <FilterButton iconid={"icon-ac"} text="AC" value='airConditioner' type='checkbox' />
+            <FilterButton iconid={"icon-transmission"} text="Automatic" value='automatic' type='checkbox' />
+            <FilterButton iconid={"icon-kitchen"} text="Kitchen" value='kitchen' type='checkbox' />
+            <FilterButton iconid={"icon-tv"} text="TV" value='TV' type='checkbox' />
+            <FilterButton iconid={"icon-shower"} text="Shower/WC" value='shower' type='checkbox' />
           </FilterList>
         </FilterWrapper>
         <FilterWrapper>
@@ -78,18 +78,21 @@ export const SearchForm = () => {
               text="Van"
               width={40}
               height={28}
+              value='panelTruck' type='radio'
             />
             <FilterButton
               iconid={"icon-fully-integrated"}
               text="Fully Integrated"
               width={40}
               height={28}
+              value='fullyIntegrated' type='radio'
             />
             <FilterButton
               iconid={"icon-alcove"}
               text="Alcove"
               width={40}
               height={28}
+              value='alcove' type='radio'
             />
           </FilterList>
         </FilterWrapper>

@@ -4,7 +4,7 @@ export const filterSlice = createSlice({
   name: 'filter',
   initialState: {
     location: '',
-    equipment: '',
+    equipment: [],
     type: ''
   },
   reducers: {
@@ -12,7 +12,7 @@ export const filterSlice = createSlice({
       state.location = action.payload;
     },
     setEquipment: (state, action) => {
-      state.equipment = action.payload;
+      state.equipment.push(action.payload);
     },
     setType: (state, action) => {
       state.type = action.payload;
