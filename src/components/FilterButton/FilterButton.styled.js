@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const Button = styled.button`
-  display: flex;
+const Wrapper = styled.label`
+display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -10,6 +10,10 @@ const Button = styled.button`
   height: 95px;
   border-radius: 10px;
   border: 1px solid var(--grey-border-color);
+`;
+
+const Button = styled.input`
+appearance: none; 
 `;
 
 const Text = styled.p`
@@ -21,4 +25,4 @@ const Text = styled.p`
   line-height: 1.25;
 `;
 
-export { Button, Text };
+export { Button, Text, Wrapper };
